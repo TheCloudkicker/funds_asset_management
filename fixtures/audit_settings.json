@@ -1,0 +1,17 @@
+[
+  {
+    "model": "main.auditsettings",
+    "pk": 1,
+    "fields": {
+      "created_userID": null,
+      "name": "Standard",
+      "created_dt": "2020-12-15T01:00:10Z",
+      "sourceID": null,
+      "period": null,
+      "benchmark": "Net Assets",
+      "overall": 500,
+      "performance": 75,
+      "deminimis": 10
+    }
+  }
+]

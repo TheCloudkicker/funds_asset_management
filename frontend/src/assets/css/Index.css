@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url('../../fonts/Roboto-Regular.ttf') format('truetype');
+  }
+
+
+  /* .ui.dropdown.selection {
+      background: #474b52;
+  }
+  .ui.dropdown .menu > .item {
+      background: var(--header-color);
+      color: white;
+  }
+  
+  .ui.dropdown .menu > .item:hover {
+      color: white;
+      z-index: 13;
+      background: #161616;
+  }
+ */
+ .ui.popup.suir-calendar {
+  max-width: none;
+}
+
+.ui.input{
+  max-width: 120px !important;
+}
+.ui.table thead tr:first-child > th {
+  position: sticky !important;
+  top: 0;
+  z-index: 2;
+}
+
+:root {
+    margin:0 !important;
+    padding: 0 !important;
+    font-size: 60%;
+    font-family: "Roboto", sans-serif;
+
+    --success-color: #5f9c8596;
+    --fail-color: rgba(220, 20, 60, 0.616);
+    
+    --text-primary: #dadada;
+    --text-secondary: #fff;
+    
+    --text-secondary-light: #fff;
+
+    --icon-color-primary: white;
+  
+    --bg-primary: #121212;
+    --bg-primary-hover: #161616;
+    --bg-primary-active: #1a1919;
+
+    --bg-secondary: #282828;
+    --bg-secondary-hover: #3b3b3b;
+    --bg-secondary-active: #4b4a4a;
+
+    --bg-tertiary: #1d1d1d;
+    --bg-tertiary-hover: #242424;
+    --bg-tertiary-active: #2b2b2b;
+
+    --bg-fourth: #222222;
+    --bg-fourth-hover: #272626;
+    --bg-fourth-active: #333333;
+
+
+    --bg-sidenav: #2b2c2d;
+    --header-color: #2b2c2d;
+    --waibe-logo-text: #4c51bf;
+
+
+
+
+    --icon-primary:#667eea;
+    --icon-secondary: #4c51bf;
+
+    --waibe-blue-primary: #00d0ff;
+    --waibe-blue-primary-hover: #00d0ff4f;
+    --waibe-blue-primary-active: #84e3f8;
+  
+    --border-color: rgba(255, 255, 255, 0.3);
+  
+  
+    --transition-speed: 250ms;
+    --border: 1px solid #474a4d;
+    --border-udemy: #dedfe0;
+    --nav-weight: 4.5rem;
+    box-sizing: border-box;
+    --header-height: 5rem;
+    --chat-panel-width: 5rem;
+    --nav-panel-width: 5rem;
+    --main-background:#A1A1A1;
+    
+  }
+  
+  html,
+  body{
+    height: 100vh;
+  }
+
+
+.waibeActive{
+  background: var(--waibe-blue-primary) !important;
+}
+  @keyframes inputEntrance {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+@keyframes noneSelectedText {
+    0% {
+        font-size: 2rem;
+    }
+    80% {
+        font-size: 2.7rem;
+    }
+    100% {
+        font-size: 2.5rem;
+    }
+  }
+.sk-chase {
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    animation: sk-chase 2.5s infinite linear both;
+  }
+  
+.sk-chase-dot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    animation: sk-chase-dot 2.0s infinite ease-in-out both; 
+}
+  
+.sk-chase-dot:before {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 25%;
+    background-color: var(--icon-color-primary);
+    border-radius: 100%;
+    animation: sk-chase-dot-before 2.0s infinite ease-in-out both; 
+}
+.sk-chase-dot-color:before{
+      
+}
+.sk-chase-dot:nth-child(1) { animation-delay: -1.1s; }
+.sk-chase-dot:nth-child(2) { animation-delay: -1.0s; }
+.sk-chase-dot:nth-child(3) { animation-delay: -0.9s; }
+.sk-chase-dot:nth-child(4) { animation-delay: -0.8s; }
+.sk-chase-dot:nth-child(5) { animation-delay: -0.7s; }
+.sk-chase-dot:nth-child(6) { animation-delay: -0.6s; }
+.sk-chase-dot:nth-child(1):before { animation-delay: -1.1s; }
+.sk-chase-dot:nth-child(2):before { animation-delay: -1.0s; }
+.sk-chase-dot:nth-child(3):before { animation-delay: -0.9s; }
+.sk-chase-dot:nth-child(4):before { animation-delay: -0.8s; }
+.sk-chase-dot:nth-child(5):before { animation-delay: -0.7s; }
+.sk-chase-dot:nth-child(6):before { animation-delay: -0.6s; }
+  
+@keyframes sk-chase {
+    100% { transform: rotate(360deg); } 
+}
+
+@keyframes sk-chase-dot {
+    80%, 100% { transform: rotate(360deg); } 
+}
+
+@keyframes sk-chase-dot-before {
+    50% {
+        transform: scale(0.4); 
+    } 100%, 0% {
+        transform: scale(1.0); 
+    } 
+}
+
+@keyframes statusEntrance {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+@keyframes shake {
+  0% { transform: skewX(0deg); }
+  20% { transform: skewX(-10deg); }
+  80% { transform: skewX(10deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+@keyframes dropEntrance {
+  0% {
+      height: 5rem;
+    }
+    100% {
+      height: 10rem;
+    }
+}
+
+@keyframes detailsEntrance {
+  0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+
+@keyframes dateEntrance {
+  0% {
+      opacity: 0;
+      height: 0rem;
+    }
+
+    100% {
+      opacity: 1;
+      height: 5rem;
+    }
+}
+@keyframes dateExit {
+  0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+}

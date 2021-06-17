@@ -1,0 +1,41 @@
+[
+  {
+    "model": "main.currency",
+    "pk": 2,
+    "fields": {
+      "created_userID": null,
+      "created_dt": "2020-12-15T14:08:41.512Z",
+      "sourceID": "123wadfsdfg",
+      "full_name": null,
+      "short_name": "USD",
+      "symbol": "$",
+      "country": null
+    }
+  },
+  {
+    "model": "main.currency",
+    "pk": 3,
+    "fields": {
+      "created_userID": null,
+      "created_dt": "2020-12-15T14:09:18.497Z",
+      "sourceID": "123wadfsdfg",
+      "full_name": null,
+      "short_name": "EUR",
+      "symbol": "€",
+      "country": null
+    }
+  },
+  {
+    "model": "main.currency",
+    "pk": 4,
+    "fields": {
+      "created_userID": null,
+      "created_dt": "2020-12-15T14:09:28.627Z",
+      "sourceID": null,
+      "full_name": null,
+      "short_name": "GBP",
+      "symbol": "£",
+      "country": null
+    }
+  }
+]

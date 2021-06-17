@@ -1,0 +1,160 @@
+
+.unconsolidated-line{
+    stroke-width: 4px;
+    transition: 150ms;
+    cursor: pointer;
+}
+
+.unconsolidated-line:hover{
+    stroke-width: 7px;
+
+}
+.consolidated-line{
+    stroke-width: 4px;
+    transition: 150ms;
+    cursor: pointer;
+}
+
+.consolidated-line:hover{
+    stroke-width: 7px;
+
+}
+
+.ownership-text{
+    font-style: normal;
+    font: bold 20px; 
+    fill: white;
+    stroke: white
+}
+
+.client-overview-container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.client-overview-header{
+    width: 100%;
+    height: 4rem;
+    border: 1px solid var(--bg-tertiary-hover);
+    display: flex;
+    flex-direction: row;
+}
+
+.overview-hover{
+    background-color: darkslateblue;
+}
+.setup-overview-row-item{
+    height: 100%;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.setup-overview-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.setup-overview-header{
+    width: 100%;
+    height: 4rem;
+    border: 1px solid var(--bg-tertiary-hover);
+    display: flex;
+    flex-direction: row;
+}
+
+.setup-overview-header-name{
+    height: 100%;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1rem;
+    color: var(--text-secondary);
+}
+
+
+.setup-overview-row-name{
+    height: 100%;
+    width: 30rem;
+    display: flex;
+    padding-left: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--text-seondary)
+}
+
+.setup-overview-row{
+    width: 100%;
+    height: 4rem;
+    border: 1px solid var(--bg-tertiary-hover);
+    display: flex;
+    flex-direction: row;
+    text-shadow: 1px 1px 1px var(--bg-secondary);
+    cursor: pointer;
+}
+.setup-overview-row:hover{
+    background-color: darkslateblue;
+}
+.setup-overview-row:active{
+    background-color: var(--waibe-blue-primary);
+}
+.setup-overview-header-item{
+    height: 100%;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--bg-secondary);
+    align-items: center;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.setup-overview-header-item:hover{
+    background-color: darkslateblue;
+}
+.setup-overview-header-item:active{
+    background-color: var(--waibe-blue-primary);
+}
+.fund-overview-container{
+    width: 100%;
+    height: 100%;
+    /* grid-area: 2 / 1 / span 1 / span 2; */
+
+    display: flex;
+    flex-direction: column;
+
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fund-overview-investments{
+    flex: 1;
+    height: 100%;
+}
+
+.fund-overview-fund{
+    flex: 1;
+    height: 100%;
+}
+
+.fund-overview-year-item{
+    height: 4rem; 
+    width: 100%;
+    border: 1px solid darkslateblue
+}

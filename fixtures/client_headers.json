@@ -1,0 +1,92 @@
+[
+  {
+    "model": "reports.clientreportheader",
+    "pk": 1,
+    "fields": {
+      "created_userID": null,
+      "created_dt": "2020-12-20T21:54:27Z",
+      "sourceID": null,
+      "clientID": 101,
+      "name": "Account Number",
+      "comments": null,
+      "report": 2,
+      "active": true,
+      "defaultColumn": false
+    }
+  },
+  {
+    "model": "reports.clientreportheader",
+    "pk": 2,
+    "fields": {
+      "created_userID": null,
+      "created_dt": "2020-12-20T21:55:41.697Z",
+      "sourceID": null,
+      "clientID": 101,
+      "name": "Account Description",
+      "comments": null,
+      "report": 2,
+      "active": true,
+      "defaultColumn": false
+    }
+  },
+  {
+    "model": "reports.clientreportheader",
+    "pk": 3,
+    "fields": {
+      "created_userID": null,
+      "created_dt": "2020-12-20T21:55:51.817Z",
+      "sourceID": null,
+      "clientID": 101,
+      "name": "Opening Balance",
+      "comments": null,
+      "report": 2,
+      "active": true,
+      "defaultColumn": false
+    }
+  },
+  {
+    "model": "reports.clientreportheader",
+    "pk": 4,
+    "fields": {
+      "created_userID": null,
+      "created_dt": "2020-12-20T21:56:04.213Z",
+      "sourceID": null,
+      "clientID": 101,
+      "name": "Debits",
+      "comments": null,
+      "report": 2,
+      "active": true,
+      "defaultColumn": false
+    }
+  },
+  {
+    "model": "reports.clientreportheader",
+    "pk": 5,
+    "fields": {
+      "created_userID": null,
+      "created_dt": "2020-12-20T21:56:15.827Z",
+      "sourceID": null,
+      "clientID": 101,
+      "name": "Credits",
+      "comments": null,
+      "report": 2,
+      "active": true,
+      "defaultColumn": false
+    }
+  },
+  {
+    "model": "reports.clientreportheader",
+    "pk": 6,
+    "fields": {
+      "created_userID": null,
+      "created_dt": "2020-12-20T21:56:29.293Z",
+      "sourceID": null,
+      "clientID": 101,
+      "name": "Closing Balance",
+      "comments": null,
+      "report": 2,
+      "active": true,
+      "defaultColumn": false
+    }
+  }
+]

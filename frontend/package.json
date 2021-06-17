@@ -1,0 +1,73 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "proxy": "http://localhost:8000",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "cp-table": "^0.1.4",
+    "emoji-mart": "^3.0.0",
+    "exceljs": "^4.1.1",
+    "file-saver": "^2.0.5",
+    "firebase": "^7.16.1",
+    "md5": "^2.2.1",
+    "mime-types": "^2.1.27",
+    "moment": "^2.27.0",
+    "node-irr": "^2.0.3",
+    "react": "^16.13.1",
+    "react-alert": "^7.0.2",
+    "react-avatar-editor": "^11.0.10",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-chartjs-2": "^2.10.0",
+    "react-color": "^2.18.1",
+    "react-csv": "^2.0.3",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.2",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-select": "^3.1.0",
+    "react-semantic-ui-datepickers": "^2.9.1",
+    "react-spreadsheet": "^0.4.46",
+    "react-transition-group": "^4.4.1",
+    "react-window": "^1.8.6",
+    "read-excel-file": "^4.0.7",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-calendar-react": "^0.15.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^1.0.0",
+    "styled-components": "^5.2.1",
+    "uuid": "^3.4.0",
+    "xlsx": "^0.16.5",
+    "xlsx-populate": "^1.21.0",
+    "xlsx-style": "^0.8.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts --max_old_space_size=8192 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

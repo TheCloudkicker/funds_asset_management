@@ -1,0 +1,35 @@
+[
+{
+  "model": "repository.repositorytype",
+  "pk": 1,
+  "fields": {
+    "created_userID": 1,
+    "created_dt": "2020-10-20T15:14:25.303Z",
+    "sourceID": "123wadfsdfg",
+    "clientID": 101,
+    "name": "Funds"
+  }
+},
+{
+  "model": "repository.repositorytype",
+  "pk": 2,
+  "fields": {
+    "created_userID": 1,
+    "created_dt": "2020-10-21T19:37:31.681Z",
+    "sourceID": "123wadfsdfg",
+    "clientID": 101,
+    "name": "Investments"
+  }
+},
+{
+  "model": "repository.repositorytype",
+  "pk": 3,
+  "fields": {
+    "created_userID": null,
+    "created_dt": "2020-12-20T20:57:30.626Z",
+    "sourceID": null,
+    "clientID": 101,
+    "name": "Investors"
+  }
+}
+]

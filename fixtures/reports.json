@@ -1,0 +1,59 @@
+[
+  {
+    "model": "setup.report",
+    "pk": 1,
+    "fields": {
+      "created_userID": null,
+      "created_dt": null,
+      "sourceID": null,
+      "clientID": 1,
+      "name": "Holdings Report",
+      "repositoryType": 1,
+      "trackingInfo": {
+        "headerId": {
+          "label": "File Name",
+          "value": "File Name"
+        },
+        "fundString": "HLD"
+      }
+    }
+  },
+  {
+    "model": "setup.report",
+    "pk": 2,
+    "fields": {
+      "created_userID": null,
+      "created_dt": null,
+      "sourceID": null,
+      "clientID": 1,
+      "name": "Trial Balance",
+      "repositoryType": 1,
+      "trackingInfo": {
+        "headerId": {
+          "label": "File Name",
+          "value": "File Name"
+        },
+        "fundString": "TB"
+      }
+    }
+  },
+  {
+    "model": "setup.report",
+    "pk": 3,
+    "fields": {
+      "created_userID": null,
+      "created_dt": null,
+      "sourceID": null,
+      "clientID": 1,
+      "name": "Capital Report",
+      "repositoryType": 1,
+      "trackingInfo": {
+        "headerId": {
+          "label": "File Name",
+          "value": "File Name"
+        },
+        "fundString": ""
+      }
+    }
+  }
+]

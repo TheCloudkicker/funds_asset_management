@@ -1,0 +1,28 @@
+[
+  {
+    "model": "periods.period",
+    "pk": 1,
+    "fields": {
+      "created_userID": 1,
+      "created_dt": "2020-10-29T15:42:06Z",
+      "sourceID": "123wadfsdfg",
+      "clientID": 101,
+      "start_date": "2019-01-01T00:00:00Z",
+      "end_date": "2019-12-31T23:00:00Z",
+      "active": true
+    }
+  },
+  {
+    "model": "periods.period",
+    "pk": 2,
+    "fields": {
+      "created_userID": null,
+      "created_dt": "2020-12-15T16:09:31.557Z",
+      "sourceID": "123wadfsdfg",
+      "clientID": 101,
+      "start_date": "2020-01-01T00:00:00Z",
+      "end_date": "2020-12-31T23:00:00Z",
+      "active": false
+    }
+  }
+]
